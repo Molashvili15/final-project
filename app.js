@@ -1,8 +1,7 @@
-//img-slider
 let slide =[
-    "image/slider-img1.jpg",
-    "image/slider-img2.jpg",
-    "image/slider-img3.jpg",
+    "images/facebook.png",
+    "images/youtube.png",
+    "images/twitter.png",
 ]
 let index=0;
 function changeImg(){
@@ -74,22 +73,24 @@ function recommendations(){
     let nameRecommendationPerson=document.querySelector(".name-recommendation-person")
 
 
-    button1.addEventListener("click",()=>{
-        recommendationPar.innerText="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..";
-        personRecImg.src="image/recommendation/person1.png";
-        profession.innerText="Graphic Designer";
-        nameRecommendationPerson.innerText="Mau Thomas";
+
+ button1.addEventListener("click",()=>{
+        recommendationPar.innerText="Mixeil knows :   SQL and Database ABAP Development Programming, Salesforce System configuration: Process Builder, Workflows, Data Loader, Approval Processes, Validation Rules, Custom Objects, etc.net Real Time Software UML Tools";
+        personRecImg.src="images/dis1.jpg";
+        profession.innerText="C++ Developer";
+        nameRecommendationPerson.innerText="Mixeil soselia";
     })
+  
     button2.addEventListener("click",()=>{
-        recommendationPar.innerText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptatum dolorum et odit nemo, laboriosam debitis animi cupiditate, voluptates atque porro, alias ut. Saepe, eos. Illo voluptatum magni reiciendis perferendis...";
-        personRecImg.src="image/recommendation/person2.png";
+        recommendationPar.innerText="Sony knows : HTML (Hypertext Markup Language),CSS (Cascading Style Sheets) and Javascript";
+        personRecImg.src="images/dis2.svg";
         profession.innerText="web-developer";
-        nameRecommendationPerson.innerText="Lily Thomas";
+        nameRecommendationPerson.innerText="Sony Thomas";
     })
 
     button3.addEventListener("click",()=>{
-        recommendationPar.innerText=".Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptatum dolorum et odit nemo, laboriosam debitis animi cupiditate,..";
-        personRecImg.src="image/recommendation/person3.png";
+        recommendationPar.innerText="Nicks Skills and Knowledge Required: Experience in Project Management, IT / Network and Infrastructure, Field Customer Service. Strong customer service acumen. General appreciation of IT and network design. Proficient in utilizing business tools such as: E-mail, Microsoft Project, Visio, Word, Excel, and PowerPoint.";
+        personRecImg.src="images/dis3.svg";
         profession.innerText="project-meneger";
         nameRecommendationPerson.innerText="Nick jonson";
     })
@@ -140,7 +141,7 @@ showRosaText()
             message: message.value,
         }
 
-        fetch("http://api.kesho.me/v1/user-test/contact",{
+        fetch("https://borjomi.loremipsum.ge/api/send-message",{
             method:'post',
             body: JSON.stringify(formData),
             headers: {
@@ -157,8 +158,6 @@ showRosaText()
 
 
 
-//data filter
-
 function dataFilter(){
 
 const liItem=document.querySelectorAll(".project-list-box ul li");
@@ -172,7 +171,6 @@ liItem.forEach(li=>{
         li.className="activeproject";
     
 
-        // console.log(li.textContent);
         let value = li.textContent;
         updatedValue = value.replace("_"," ");
 

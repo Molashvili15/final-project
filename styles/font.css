@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Poppins Extra-Bold';
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+    src: url('../fonts/Poppins-ExtraBold.eot') format('embedded-opentype'),
+        url('../fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('../fonts/Poppins-ExtraBold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Glacial Indifference-Bold';
+    src: url('../fonts/GlacialIndifference-Bold.eot');
+    src: url('../fonts/GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+        url('../fonts/GlacialIndifference-Bold.woff') format('woff'),
+        url('../fonts/GlacialIndifference-Bold.svg#GlacialIndifference-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.eot');
+    src: url('../fonts/Muli.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Muli.woff2') format('woff2'),
+        url('../fonts/Muli.woff') format('woff'),
+        url('../fonts/Muli.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Muli-regular';
+    src: url('../fonts/Muli-Regular.eot');
+    src: url('../fonts/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Muli-Regular.woff2') format('woff2'),
+        url('../fonts/Muli-Regular.woff') format('woff'),
+        url('../fonts/Muli-Regular.ttf') format('truetype'),
+        url('../fonts/Muli-Regular.svg#Muli-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-light';
+    src: url('../fonts/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins-semiBold';
+    src: url('../fonts/Poppins-SemiBold.eot');
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Jaapokki-regular';
+    src: url('../fonts/Jaapokki-Regular.eot');
+    src: url('../fonts/Jaapokki-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Jaapokki-Regular.woff2') format('woff2'),
+        url('../fonts/Jaapokki-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
